@@ -89,7 +89,9 @@ Go to your repo on the web (on gitlab) and view the changes.
 	
 ### Share with Dr. Larson
 
-1. At the site of the gitlab repo, find the Manage - Members settings. Add "larsonam" as a member of your repo.
+<del>1. At the site of the gitlab repo, find the Manage - Members settings. Add "larsonam" as a member of your repo.</del>
+
+Since I am the owner of the group, you do not need to share with me (and it seems to generate an error anyway).
 
 ### Create a collaborators.txt File
 
