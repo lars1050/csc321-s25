@@ -54,7 +54,7 @@ _You can now accept an invitation to the group csc321\_s25/assignment01_
 1. Navigate to this site: https://gitlab.com/augsburg/csc321_s25/assigment01
 1. Create a new repo by selecting "Create New Project"
 1. Create a new project by selecting "Create blank project"
-	1. Project Name: CSC321 Assignment01 Git Setup
+	1. Project Name: /<username/> CSC321 Assignment01 Git Setup
 	1. Project slug: /<username/>-01\_git\_setup (e.g. larsonam-01\_git\_setup)
 		I.E.: your username DASH 01 UNDERSCORE git UNDERSCORE setup 
 	1. "No deployment planned"
