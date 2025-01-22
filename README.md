@@ -1,6 +1,6 @@
 # CSC321 Software Design and Development (Spring 2025)
 
-This is the repository of code for CSC351 Software Design and Development. The majority of assignments
+This is the repository of code for CSC321 Software Design and Development. The majority of assignments
 will be posted here. In this course, you
 will be developing best coding practices such as using a repository and a style guide.
 
