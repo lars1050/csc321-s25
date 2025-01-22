@@ -64,7 +64,7 @@ _You can now accept an invitation to the group csc321\_s25/assignment01_
 1. Clone the repo into you csc321 folder. Navigate to the folder in your terminal.
 
 ```
-git clone https://gitlab.com/augsburg/csc321_s25/<YOUR USERNAME>
+git clone https://gitlab.com/augsburg/csc321_s25/assignment01/<your repo name>
 ```
 
 1. Copy the contents of 01\_git\_setup from the class repo to your repo.
