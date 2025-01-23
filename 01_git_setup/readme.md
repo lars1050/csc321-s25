@@ -71,7 +71,7 @@ git clone https://gitlab.com/augsburg/csc321_s25/assignment01/<your repo name>
 
 ```
 cd <username>
-cp ../csc321-class-repo/01_git_setup .
+cp -r ../csc321-class-repo/01_git_setup .
 ```
 
 1. Add this content change to your repo. Commit the changes locally and push to the server.
