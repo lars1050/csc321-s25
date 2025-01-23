@@ -70,7 +70,7 @@ git clone https://gitlab.com/augsburg/csc321_s25/assignment01/<your repo name>
 1. Copy the contents of 01\_git\_setup from the class repo to your repo.
 
 ```
-cd <username>
+cd <gitlab repo folder>
 cp -r ../csc321-class-repo/01_git_setup .
 ```
 
