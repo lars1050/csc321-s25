@@ -64,14 +64,14 @@ _You can now accept an invitation to the group csc321\_s25/assignment01_
 1. Clone the repo into you csc321 folder. Navigate to the folder in your terminal.
 
 ```
-git clone https://gitlab.com/augsburg/csc321_s25/<YOUR USERNAME>
+git clone https://gitlab.com/augsburg/csc321_s25/assignment01/<your repo name>
 ```
 
 1. Copy the contents of 01\_git\_setup from the class repo to your repo.
 
 ```
-cd <username>
-cp ../csc321-class-repo/01_git_setup .
+cd <gitlab repo folder>
+cp -r ../csc321-class-repo/01_git_setup .
 ```
 
 1. Add this content change to your repo. Commit the changes locally and push to the server.
@@ -89,7 +89,9 @@ Go to your repo on the web (on gitlab) and view the changes.
 	
 ### Share with Dr. Larson
 
-1. At the site of the gitlab repo, find the Manage - Members settings. Add "larsonam" as a member of your repo.
+<del>1. At the site of the gitlab repo, find the Manage - Members settings. Add "larsonam" as a member of your repo.</del>
+
+Since I am the owner of the group, you do not need to share with me (and it seems to generate an error anyway).
 
 ### Create a collaborators.txt File
 
