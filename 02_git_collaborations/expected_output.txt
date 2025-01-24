@@ -1,0 +1,18 @@
+amylarson@MacBook-Pro-110 02_git_collaborations_KEY % java Main
+
+______ TEST CHECKING _____________
+EXPECT Insufficient Funds.
+Insufficient Funds. Fee of $25.00 charged to account.
+Percent correct: 100.0
+
+______ TEST SAVINGS _____________
+EXPECT Insufficient Funds.
+Insufficient Funds for withdrawal.
+Percent correct: 100.0
+
+______ TEST Retirement _____________
+EXPECT Withrawal not permitted.
+Withdrawal not permitted from retirement account.
+Percent correct: 100.0
+amylarson@MacBook-Pro-110 02_git_collaborations_KEY % 
+
