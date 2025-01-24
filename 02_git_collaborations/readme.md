@@ -19,7 +19,7 @@ Among your partner(s), one of you decide who is going to create the assignment i
 
 1. Navigate to your gitlab repo folder (with your username).
 1. Copy the contents of 02\_git\_collaborations into this folder.
-1. Add your partner(s) as collaborator(s) -- go to Manage-Members on Gitlab.
+1. <del>Add your partner(s) as collaborator(s) -- go to Manage-Members on Gitlab.</del> Because everyone is part of the same group, they already have access.
 
 #### Teammate(s) Get the Repo
 
@@ -27,10 +27,10 @@ Be sure that you have access to your teammate's repo.
 
 1. At the command prompt, navigate to your csc321 folder. Clone your teammate's repo.
 1. cd into their repo.
-1. In whatever way makes sense to you, record collaborators in a new text file inside the 02\_git\_collaborations folder.
+1. In whatever way makes sense to you (i.e. in whichever editor you like to work), record collaborators in a new text file inside the 02\_git\_collaborations folder.
 	- Create a file collaborators.txt
 	- list each collaborator as username,lastname,firstname (1 per line, no spaces, and a linefeed after the last line please).
-1. Add these changes to the repo.
+1. Add these changes to the repo...
 
 ```
 git add *
