@@ -1,0 +1,35 @@
+amylarson@MacBook-Pro-110 03_git_merges_KEY % java Main
+
+__________________________________
+______ TEST CHECKING _____________
+Insufficient Funds. Fee of $25.00 charged to account.
+
+Transactions
+====================================
+26-01-2025 09:50:53    DEPOSIT: $  100.50
+26-01-2025 09:50:53   WITHDRAW: $  -50.00
+26-01-2025 09:50:53   WITHDRAW: $   -5.00
+26-01-2025 09:50:53        FEE: $  -25.00
+26-01-2025 09:50:53    DEPOSIT: $   22.50
+
+__________________________________
+______ TEST SAVINGS _____________
+Insufficient Funds for withdrawal.
+
+Transactions
+====================================
+26-01-2025 09:50:53    DEPOSIT: $   20.00
+26-01-2025 09:50:53   INTEREST: $    0.05
+26-01-2025 09:50:53   WITHDRAW: $  -10.00
+26-01-2025 09:50:53    DEPOSIT: $  212.12
+
+____________________________________
+______ TEST Retirement _____________
+Withdrawal not permitted from retirement account.
+
+Transactions
+====================================
+26-01-2025 09:50:53    DEPOSIT: $ 2000.00
+26-01-2025 09:50:53   INTEREST: $    8.33
+26-01-2025 09:50:53    DEPOSIT: $  500.50
+
