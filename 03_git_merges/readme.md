@@ -284,7 +284,7 @@ Pull the changes.
 
 ONE of you, make the following changes:
 
-In each of the methods to deposit, withdraw, charge a fee, and apply interest, call the record function as appropriate. For example,
+In Account in each of the methods to deposit, withdraw, charge a fee, and apply interest, call the record function as appropriate. For example,
 
 - In deposit, `record(amount, Transaction.Type.DEPOSIT)`
 - In withdrawal, `record(-amount, Transaction.Type.WITHDRAW)`
