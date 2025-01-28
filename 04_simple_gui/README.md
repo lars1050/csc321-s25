@@ -31,7 +31,7 @@ _This exercise is also practice for working in a team. There should be commits f
 
 ### Feature Enhancements
 
-> REMEMBER: It is very important that you pull the repo before you start any changes. This way you will start with any changes that your teammate(s) made, which will reduce the risk of creating a merge conflict. If things get really messed up, you can change the name of the repo folder and reclone the repo.
+> REMEMBER: It is very important that you pull the repo before you start any changes. This way you will start with any changes that your teammate(s) made, which will reduce the risk of creating a merge conflict. If things get really messed up, you can change the name of the repo folder and reclone the repo. And you can always revert back to a previous version that has been committed to your repo -- just ask if you need to do that.
 
 Fix the below issues to add functionality and/or change the appearance in the graphics window. Decide who will work on which issues. You are both responsible for getting the project up and running. Then you are each responsible for completing your assigned issues. It is important that you are communicating regularly so that you don't create merge conflicts.
 
