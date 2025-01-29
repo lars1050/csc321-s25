@@ -45,7 +45,7 @@ The expectation is that when the assignment is due, the code in the repo can be 
 
 - Issue #2: The font of the label for the play button is too big. Change it to 24. Also, make it a different color.
 
-- Issue #3: The textbox (in SimpleGUIApp) needs a label to display the acceptable range for the user input. Add the text label ABOVE the textbox that states "Enter a value between 0 and 100."
+- Issue #3: The textbox (in SimpleGUIApp) needs a label to display the acceptable range for the user input. Add the text label ABOVE the textbox that states "Enter a value between 0 and 100." Notice that in SimpleGUIApp at lines 85-87, there is the creation of the label for the value the user has entered in. Create another label, using these lines as a template, to add a label above the textbox.
 
 - Issue #4: Add functionality to the minus button in the ActionListener in ButtonsController. The plus button is complete and can be used as a model for minus.
 
