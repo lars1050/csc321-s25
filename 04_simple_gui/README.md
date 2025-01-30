@@ -59,13 +59,13 @@ The expectation is that when the assignment is due, the code in the repo can be 
 
 > Refactor means to modify the code but not the behavior. This might be needed to improve readability, organization, efficiency, security, etc.
 
-The design for the text box is different from the other components. It demonstrates that you always have options about how to design your code. By  separating the GUI component code from the main GUI class, code changes for the component will not impact other parts of the code. Notice that this is an example of _composition_ in which the GUI is composed of other objects. 
+The design for the text box is different from the other components. It demonstrates that you always have options about how to design your code. By separating the GUI component code from the main GUI class, code changes for the component will not impact other parts of the code. Notice that this is an example of _composition_ in which the GUI is composed of other objects. 
 
 Refactor the text box so that it follows the design of the other components. Do this in 2 steps:
 
-- Issue #8: Create the class TextboxController in a new file. Do not change anything in any other file. Make sure it compiles. Add, commit, and push it up to the server.
+- Issue #8: Create the class TextboxController in a new file. It should look very similar to the other Controller classes, including a constructor, a setInFrame method, and an action listener. All of this functionality is currently in SimpleGUIApp and can be copied into your new class. This includes the code for the textbox, the submit button, the label displaying the value, and the label displaying the range. Do not change anything in any other file. Make sure it compiles. Add, commit, and push it up to the server.
 
-- Issue #9: After #8 is complete, replace the textbox functionality in SimpleGUIApp and use the new class instead. Add, commit, and push it up to the server.
+- Issue #9: After #8 is complete, replace the textbox functionality in SimpleGUIApp and use the new class instead. Again, follow the design of the other controllers to create the TextboxController. Add, commit, and push it up to the server.
 
 
 
