@@ -53,7 +53,7 @@ The expectation is that when the assignment is due, the code in the repo can be 
 
 - Issue #6: Add functionality to the submit button ActionListener in SimpleGUIApp. Ignore the entry if the value in the textbox is not in range. Otherwise, set the variable textboxValue and change the label to reflect the new value.
 
-- Issue #7: Add functionality to the slider ChangeListener in SliderController. Set the variable sliderValue to the value on the slider and change the label to reflect this value.
+- Issue #7: Add functionality to the slider ChangeListener in SliderController. Set the variable sliderValue to the value on the slider and change the label to reflect this value. In other words, read the value from the slider, set the variable to that value, then display the new value in the window.
 
 ### Refactoring
 
