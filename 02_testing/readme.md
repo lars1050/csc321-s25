@@ -4,7 +4,7 @@ A shell script is a program that you can write to interact with your operating s
 
 The script in this folder is similar to the one that is being used to grade the assignments. In this exercise, you will run the script and test if your assignment02 is set up correctly.
 
-1. Move the file test02.sh into your csc321 folder (outside the repo).
+1. Copy the file test02.sh into your csc321 folder (outside the repo).
 
 2. If you are on a Windows machine, open your Git Bash (the shell that was installed when you installed git). It can run the shell scripts as they are written.
 
