@@ -123,7 +123,7 @@ Above the constructor (~ line #13), copy and paste these lines of code:
 	private ColorController colorController;
 ```
 
-Above the setLayout(true) towards the bottom of the file add this code:
+Above the setVisible(true) towards the bottom of the file add this code:
 
 ```
 		// Add the color controller panel
@@ -195,7 +195,7 @@ Above the constructor (~ line #13), copy and paste these lines of code:
 	final private int FC_ROW = 10;
 ```
 
-Above the setLayout(true) towards the bottom of the file add this code:
+Above the setVisible(true) towards the bottom of the file add this code:
 
 ```
 		// Add the font size controller panel
