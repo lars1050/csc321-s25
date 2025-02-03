@@ -8,7 +8,7 @@ Pro Git chapter on branching: https://git-scm.com/book/en/v2/Git-Branching-Branc
 
 ### Getting Set Up
 
-1. Pull from Gitlab. There will be 2 new folders:
+1. Pull from Github. There will be 2 new folders:
 
 	- starter-code
 	- developing-code
