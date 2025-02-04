@@ -59,7 +59,7 @@ https://gitlab.com/augsburg/csc321_s25/assignment03
 
 	You can copy the contents via the command line or through your GUI file manager. It does not matter which you choose.
 
-1. Add a plain text file collaborators.txt in the repo folder to include your team members. One person per line (e.g. larsonam,larson,amy), no spaces, and a linefeed after the last person. The username is the Augsburg username and it should be all lower case. The last and first name capitalization does not matter.
+1. Add a plain text file named **collaborators.txt** in the repo folder to include your team members. <mark>One person per line (e.g. larsonam,larson,amy), no spaces, and a linefeed after the last person. The username is the Augsburg username and it should be all lower case. The last and first name capitalization does not matter.</mark>
 
 	Now, you should have 3 items in your repo:
 	- larsonam-repo-03/collaborators.txt
