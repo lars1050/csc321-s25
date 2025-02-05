@@ -51,7 +51,7 @@ Each of the sliders should be modelled after the 05\_gui\_branches ColorSlider t
 
 Pull the github repo.
 
-**Organize the gitlab repo.** Decide who will make the gitlab repo. Create it under the subgroup assignment06. Name the repo username-reop-06. Create the collaborators.txt file. Copy the github 06\_whacka folder into the repo. Create your .gitignore file.
+**Organize the gitlab repo.** Decide who will make the gitlab repo. Create it under the subgroup assignment06. Name the repo username-repo-06. Create the collaborators.txt file. Copy the github 06\_whacka folder into the repo. Create your .gitignore file.
 
 **Ignore Javadocs.** You will be generating javadocs, but you do not want to push the results to the repo. The javadocs will be generated inside a docs folder, so your .gitignore might look like this ...
 
