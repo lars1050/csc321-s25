@@ -21,15 +21,15 @@ Below is the list of the "issues" to be resolved for this assignment. Most of yo
 
 Each of the sliders should be modelled after the 05\_gui\_branches ColorSlider that extends a JPanel. The constructor should have a parameter for the object that will be communicated to about the change. For example, the ColorChangeSpeedSlider needs to communicate with the playClock.
 
-- Create `class ColorChangeSpeedSlider` to be placed in the ControlPanel to control the timing of the color changes (from 300 to 1500 ms). This will control the GameClockControl.speedMS instance variable. 
+- Create `class ColorChangeSpeedSlider` in a file ColorChangeSpeedSlider.java. This slider will be placed in the ControlPanel to control the timing of the color changes (from 300 to 1500 ms). This will control the GameClockControl.speedMS instance variable. 
 
 - Add the ColorChangeSpeedSlider to the ControlPanel.
 
-- Create `class PlayTimeSlider` to be placed in the ControlPanel to control the total time to play one round in seconds (from 10 to 60). This will control the GameClockControl.playTimeSeconds instance variable.
+- Create `class PlayTimeSlider` in a file PlayTimeSlider.java. This slider will be placed in the ControlPanel to control the total time to play one round in seconds (from 10 to 60). This will control the GameClockControl.playTimeSeconds instance variable.
 
 - Add the PlayTimeSlider to the ControlPanel.
 
-- Create `class ProbabilitySlider` to be placed in the ControlPanel to control the probability that a cue will appear when the button color changes (from 0.2 to 1.0). This will control the GameViewingPanel.cueProbability instance variable.
+- Create `class ProbabilitySlider` in a file ProbabilitySlider.java. This slider will be placed in the ControlPanel to control the probability that a cue will appear when the button color changes (from 0.2 to 1.0). This will control the GameViewingPanel.cueProbability instance variable.
 
 - Add the ProbabilitySlider to the ControlPanel.
 
