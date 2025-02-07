@@ -57,8 +57,8 @@ public class Order {
     public String customerEmail() {
       return customerEmail;
     }
-    public String customerAddress() {
-      return customerAddress;
+    public String customerPhone() {
+      return customerPhone;
     }
 }
 
