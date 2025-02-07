@@ -21,7 +21,7 @@ Below is the list of the "issues" to be resolved for this assignment. Most of yo
 
 ## Each of the sliders should be modelled after the 05\_gui\_branches ColorSlider.java file (which extends a JPanel). Copy this class and customize it for this game.
 
-The constructor should have a parameter for the object that will be communicated to about the change. For example, the ColorChangeSpeedSlider needs to communicate with the playClock.
+The constructor should have a parameter for the object that will be communicated to about the change. For example, the ColorChangeSpeedSlider needs to communicate with the playClock. Each slider should have a label so that the user knows what the slider is changing.
 
 - Create `class ColorChangeSpeedSlider` in a file ColorChangeSpeedSlider.java. This slider will be placed in the ControlPanel to control the timing of the color changes (from 300 to 1500 ms). This will control the GameClockControl.speedMS instance variable. 
 
