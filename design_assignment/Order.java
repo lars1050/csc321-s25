@@ -58,7 +58,7 @@ public class Order {
       return customerEmail;
     }
     public String customerAddress() {
-      return customerPhone;
+      return customerAddress;
     }
 }
 
