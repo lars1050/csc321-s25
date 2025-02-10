@@ -125,6 +125,8 @@ For *javadocs*, please complete the documentation for all instance variables and
 
 If you cannot compile your javadocs with the above command and you are on a Windows machine, you will probably need to add it to your path. See the main readme page in https://github.com/lars1050/csc321-s25 for details.
 
+The creation of the docs folder and compiling of the javadocs is for your benefit. This is to confirm that your javadocs are complete and providing good documentation to the classes. The docs folder and generated html pages should not appear in your repo. I will compile the javadocs as part of the assessment of the assignment.
+
 **IMPORTANT: make sure you have set your .gitignore to ignore the documentation generated through javadocs compilation.**
 
 
