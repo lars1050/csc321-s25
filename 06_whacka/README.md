@@ -40,12 +40,12 @@ The constructor should have a parameter for the object that will be communicated
 
 - Complete the javadocs for ControlPanel.java
 - Complete the javadocs for GameViewingPanel.java
-- Complete the javadocs for GameButton.java
+- <del>Complete the javadocs for GameButton.java</del>. I accidentally pushed my key for this file into the repo, so the javadocs are already complete. 
 
 
 **User Documentation**
 
-- Create instructions on how to play the game in how-to-play.md
+- Create instructions on how to play the game in `how-to-play.md` and place it in the 06_whacka folder. 
 
 <hr>
 
