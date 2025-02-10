@@ -119,7 +119,7 @@ The other key skill for this assignment is communication in all its forms. You w
 
 For *javadocs*, please complete the documentation for all instance variables and methods. Use @param and @return as appropriate (that means if a method has a parameter and/or the return type is not void). Javadocs should be compiled into a separate docs folder. To generate your javadocs and review the contents, follow this process for creating your javadocs for the first time:
 
-1. Inside the repo, create a folder `docs`.
+1. Inside the 06 folder, create a folder `docs`.
 2. `cd docs` to move into the new folder.
 3. At the command prompt, `javadoc ../*.java` to autogenerate javadocs for all java files.
 
