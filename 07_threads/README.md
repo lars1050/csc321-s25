@@ -211,6 +211,16 @@ public class TaskWriter extends Thread {
 
 4. In main, instantiate a Messenger, and a Reader and Writer task. Call `.start()` on each.
 
+```Java
+Messenger mailbox = new Messenger();
+	
+TaskReader readTask = new TaskReader(mailbox);
+TaskWriter writeTask = new TaskWriter(mailbox);
+		
+writeTask.start();
+readTask.start();
+```
+
 > Look closely at the read messages. What is wrong with that? **Try to understand what is happening and why.**
 
 <hr>
