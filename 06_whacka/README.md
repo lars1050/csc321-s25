@@ -69,7 +69,7 @@ docs
 
 Everyone clone the repo.
 
-**Create the issues.** On gitlab, create an issue for each of the feature enhancements and javadocs listed above. Make sure you are inside your repo when you create the issue. Assign team members to each issue using gitlab (right sidebar). Each member should have 1 feature enhancement and 1 file in which javadocs should be completed. 
+**Create the issues.** On gitlab, create an issue for each of the feature enhancements and javadocs listed above. Make sure you are inside your repo when you create the issue. Assign team members to each issue using gitlab (right sidebar). Each member should have 2 feature enhancements (slider class and incorporating into the ControlPanel) and 1 file in which javadocs should be completed. 
 
 
 ### Making Changes
