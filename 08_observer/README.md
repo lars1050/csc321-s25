@@ -22,7 +22,9 @@ One of you make a repo in subgroup assignment 8.
 
 1. Complete WeatherSubscriber.java. Use StocksSubscriber.java as a guide on what to do.
 
-1. Complete the action listener for the checkboxes in FrontPage. For now, do not subscribe to the feed in the constructor (for any of the Observers). Instead, only subscribe once the checkbox is checked. _We will work on unsubscribing after that, but do not worry about it for now.__
+1. Complete the action listener for the checkboxes in FrontPage. For now, do not subscribe to the feed in the constructor (for any of the Observers). Instead, only subscribe once the checkbox is checked. _We will work on unsubscribing after that, but do not worry about it for now._
+
+You and your partner can determine how to divvy up the work and how to manage the repository. You do not have to use branches.
 
  
 
