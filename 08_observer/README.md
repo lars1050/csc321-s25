@@ -18,11 +18,11 @@ One of you make a repo in subgroup assignment 8.
 
 ### Deliverables
 
-1. Draw a UML Diagram that represents this application. You do not have to include any of the classes Weather\*.java or Images\*.java.
+1. Draw a UML Diagram that represents this application. You do not have to include any of the classes Weather\*.java or Images\*.java. And you do not have to include the member variables associted with these subjects/observers in the `FrontPage`.
    
 1. Add `public void subscribe(boolean checked)` to the `Observer` interface. This will be used by `FrontPage` to inform the Observer when the corresponding checkbox is checked (pass true) or unchecked (pass false). You will need to change all the Observers, because this is a change to the interface.
 
-1. Complete WeatherSubscriber.java. Use StocksSubscriber.java as a guide on what to do.
+1. Complete WeatherSubscriber.java. Use StocksSubscriber.java as a guide on what to do. The data displayed can be seen in the `WeatherData.java`.
 
 1. Complete the action listener for the checkboxes in FrontPage. For now, do not subscribe to the feed in the constructor (for any of the Observers). Instead, only subscribe once the checkbox is checked. _We will work on unsubscribing after that, but do not worry about it for now._
 
