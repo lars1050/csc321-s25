@@ -1,10 +1,12 @@
 ### The Observer Pattern
 
+#### Due Monday, February 17
+
 In this assignment, you will learn how to use the design pattern Observer to facilitate communication between the _Subject_ and the _Observer_. Each observer can choose to subscribe and unsubscribe to receive data (the feed) from the subject. 
 
 There are 4 observer/subject pairs for an image, headline, stock market, and weather feed. Each of these inherits from either `interface Observer` or `interface Subject`. This design is easily extensible without making any modifications to the existing observers and subjects.
 
-There are a lot of classes to keep track of! Your first task is to make a UML diagram to better understand how the pieces fit together.
+There are a lot of classes to keep track of! Your first task is to make a UML diagram to better understand how the pieces fit together. You can draw by hand or with a tool. It will be submitted via hard copy.
 
 ### Getting Started
 
