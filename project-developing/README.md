@@ -10,7 +10,9 @@ Finally, the StatsPanel will display statistics about the population during the 
 
 Each panel can be developed quite independently. The layout of the panels and components is specified in Layout.java.
 
-_Take some time to familiarize yourself with the code. There will be changes before it is formally posted next week, but the general framework will not change.__
+_Take some time to familiarize yourself with the code. There will be changes before it is formally posted next week, but the general framework will not change._
+
+The main() method is in DiseaseGUI.java.
 
 
 
