@@ -94,7 +94,9 @@ The person not typing is guiding the development.
 
 There are 2 types of movement and 3 types of sensing. If you had to make a new class for every possible combination, you would be making 6 distinct classes. What's worse is that if you wanted one of the movements or the sensors to be implemented differently, you would have to modify that in each of the classes it is used. 
 
-#### Setting Up the Repo 
+The other person can now clone the repo.
+
+#### Setting Up the Repo with Issues
 
 On gitlab, prepare the issues. Please use the provided branch name for the issue name and include the description. On gitlab, assign each to Member A or Member B (you decide who is A and who is B). More details on the requirements for these issues is provided below.
 
