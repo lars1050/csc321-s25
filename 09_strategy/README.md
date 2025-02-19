@@ -1,5 +1,7 @@
 ### 09 Strategy Pattern
 
+Due: Sunday, February 23 end-of-day with a 24 hour grace period
+
 In this assignment, you will redesign and reimplement the collection of robots to follow the Strategy Pattern. The setup is that the robot is part of a simulation in which the robot moves within a grid of a fixed size. Each type of robot has a mechanism for moving and a sensor for sensing obstacles ahead. There is the super class Robot (in the provided code, it is named RobotBad) and specialized subclasses with different combinations of locomotion and sensors. The type of locomotion is reflected in the method `move()`. The type of sensor is reflected in the method `sense()`. Subclasses override these methods when necessary. 
 
 Currently, for locomotion, a robot can be omni-direction or wheeled. Omni-directional (sometimes referred to as holonomic) means it can turn in place. The wheeled robots use differential drive, which means that it turns by turning the wheels at different rates which makes the robot move in an arc. This movement is implemented in the code in this way:
@@ -112,15 +114,19 @@ On gitlab, prepare the issues. Please use the provided branch name for the issue
 
 8. add-movement-strategy-fixed. Create a new strategy for movement that is fixed. Assign to Member B.
 
-#### Implementing Good Design
+<hr>
+
+### Implementing Good Design
 
 _Please leave the provided code as is and create new classes. The one exception is Main, which you can edit as discussed in the requirements below._
+
+For each of the issues below, develop the code in a branch with the specified title. When complete, merge with the main branch.
 
 1. (issue #1) Create the collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni.
 
 1. (issue #2) Create the collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch.
 
-1. (issue #3) Create a new Robot class to make use of the strategies. 
+1. (issue #3) Once you have completed both issue#1 and issue#2, create a new Robot class to make use of the strategies. 
 
 Here is some code from _Head First Design Patterns_ that implements the Duck example. Your robot classes will be essentially the same in structure.
 
