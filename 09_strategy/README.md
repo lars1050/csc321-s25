@@ -90,15 +90,15 @@ The person not typing is guiding the development.
 
 2. Make a new RobotBad subclass that is wheeled and uses a camera (`class WheelCameraBad`). Test that it is working.
 
-There are 2 types of movement and 3 types of sensing. If you had to make a new class for every possible combination, you would be making 6 distinct classes. What is worse, if you wanted the one of the movements or the sensors to be implemented differently, you would have to modify that in each of the classes it is used. 
+There are 2 types of movement and 3 types of sensing. If you had to make a new class for every possible combination, you would be making 6 distinct classes. What's worse is that if you wanted one of the movements or the sensors to be implemented differently, you would have to modify that in each of the classes it is used. 
 
 #### Setting Up the Repo 
 
-Prepare the issues. Assign each to Member A or Member B. More details are provided below.
+On gitlab, prepare the issues. Please use the provided branch name for the issue name and include the description. On gitlab, assign each to Member A or Member B (you decide who is A and who is B). More details on the requirements for these issues is provided below.
 
-1. add-movement-strategy. Create the strategies for movement including the super class and one for wheeled movement and omni-directional movement. Assign to Member A.
+1. add-movement-strategy. Create the strategies for movement including the super class and one for wheeled movement and one for omni-directional movement. Assign to Member A.
 
-2. add-sensing-strategy. Create the strategies for sensing including the super class and one for IR, camera, and touch sensing. Assign to Member B.
+2. add-sensing-strategy. Create the strategies for sensing including the super class and one for IR, for camera, and one for touch sensing. Assign to Member B.
 
 3. new-robot-class. Create a new Robot class that makes use of the movement and sensing strategies. The first 2 issues must be resolved before completing this. Assign to Member A.
 
@@ -116,7 +116,7 @@ Prepare the issues. Assign each to Member A or Member B. More details are provid
 
 _Please leave the provided code as is and create new classes. The one exception is Main, which you can edit as discussed in the requirements below._
 
-1. (issue #1) Create the collection of classes to implement the locomotion strategy. This should include a wheel, omni-directional, and fixed strategy. Use the names MoveBehavior, MoveWheeled, MoveOmni.
+1. (issue #1) Create the collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni.
 
 1. (issue #2) Create the collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch.
 
@@ -159,19 +159,19 @@ public class Mallard extends Duck {
 }
 ```
 
-1. (issue #4 and issue #5) Replicate your subclasses from above, except use the Strategy Pattern. Call them OmniTouch and WheelCamera. The constructor should have a String parameter fot the name of the robot. As before, in main(), create robots of these types and test that they are working.
+1. (issue #4 and issue #5) Again create subclasses with the same functionality as before, except use the Strategy Pattern. Call them OmniTouch and WheelCamera. The constructor should have a String parameter fot the name of the robot. As before, in main(), create robots of these types and test that they are working.
 
-1. (issue #6) Create the Robot subclass Wheeled and initialize with the wheeled strategy for locomotion. Additionally, create a constructor with the sensing strategy as a parameter (i.e. `public Wheeled(String name, SenseBehavior strategy)`). In main, test that it is working.
+1. (issue #6) Create the Robot subclass Wheeled and initialize with the wheeled strategy for movement. Additionally, create a constructor with the sensing strategy as a parameter (i.e. `public Wheeled(String name, SenseBehavior strategy)`). In main, test that it is working.
 
-1. (issue #7) Finally, create a class Reconfigurable and initialize with both a MoveBehavior and a SenseBehavior (i.e. `public Reconfigurable(String name, SenseBehaivor sensing, MoveBehavior moving)`);
+1. (issue #7) Finally, create a `class Reconfigurable` and initialize with both a MoveBehavior and a SenseBehavior (i.e. `public Reconfigurable(String name, SenseBehaivor sensing, MoveBehavior moving)`);
 
-1. (issue #7) Add setters for the sensing and moving strategies using the signature setMoveBehavior(MoveBehavior moving) and setSenseBehavior(SenseBehavior sensing).
+1. (issue #7) Add setters for the sensing and moving strategies using the signature `setMoveBehavior(MoveBehavior moving)` and `setSenseBehavior(SenseBehavior sensing)`.
 
-1. (issue #7) Instantiate a Reconfigurable that is wheeled and uses IR. Test it in Main to make sure it is all working.
+1. (issue #7) Instantiate a `Reconfigurable` that is wheeled and uses IR. Test it in Main to make sure it is all working.
 
 1. (issue #7) Reconfigure the robot you just made by setting the movement to omni and the sensing to touch (i.e. use the setters). Test that it works.
 
-1. (issue #8) Often industrial robots are fixed and cannot move (except for their arms). Make a new MoveStrategy MoveFixed. In the move function, print something like "Fixed. No change in position." Make another reconfigurable robot that uses a camera and is fixed.
+1. (issue #8) Often industrial robots are fixed and cannot move (except for their arms). Make a new MoveStrategy called `MoveFixed`. In the move function, print something like "Fixed. No change in position." Make another reconfigurable robot that uses a camera and is fixed.
 
 I think you get the point now!
 
