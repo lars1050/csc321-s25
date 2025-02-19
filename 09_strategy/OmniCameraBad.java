@@ -4,7 +4,8 @@ public class OmniCameraBad extends RobotBad {
 	public OmniCameraBad(String name) {
 		super(name);
 	}
-
+	
+	@Override
 	public void sense() {
 		// Randomly generate a reading of an obstacle in the environment
 		// It can be as close as 1 or beyond the max (thus not visible)
