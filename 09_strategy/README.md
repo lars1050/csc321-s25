@@ -88,6 +88,8 @@ The person not typing is guiding the development.
 
 1. Familiarize yourself with the code, then make a new RobotBad subclass that is omni-directional and uses a touch sensor (`class OmniTouchBad`). Be sure to instantiate an OmniTouchBad robot and test it in Main to ensure it is working -- the code is in main, but it is commented out.
 
+To create a robot with different behavior, override the default behavior, as needed. The default RobotBad uses omni-directional movement and an IR sensor.
+
 > Note: You might notice yourself copying and pasting code to create this new subclass. Copying-and-pasting code should always be a red flag indicating you might need a redesign.
 
 2. Make a new RobotBad subclass that is wheeled and uses a camera (`class WheelCameraBad`). Test that it is working.
