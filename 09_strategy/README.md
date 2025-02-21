@@ -104,7 +104,7 @@ On gitlab, prepare the issues. Please use the provided branch name for the issue
 
 1. add-movement-strategy. Create the strategies for movement including the super class and one for wheeled movement and one for omni-directional movement. Assign to Member A.
 
-***REQUIREMENTS ADDITION**: A student alerted me to a critical piece that I left out in the Strategy Pattern. Because the move is taking place outside of the Robot class, you no longer have access to the location. For this reason, you should return the change in x and the change in y relative to the current position. You can accomplish this by returning a Point. The x-component is equal to `distance * Math.cos(radians)` and the y-component is equal to `distance * Math.sin(radians)`,
+**REQUIREMENTS ADDITION**: A student alerted me to a critical piece that I left out in the Strategy Pattern. Because the move is taking place outside of the Robot class, you no longer have access to the location. For this reason, you should return the change in x and the change in y relative to the current position. You can accomplish this by returning a Point. The x-component is equal to `distance * Math.cos(radians)` and the y-component is equal to `distance * Math.sin(radians)`. On the Robot side, after calling this function, add the change in x and the change in y to the current location.
 
 2. add-sensing-strategy. Create the strategies for sensing including the super class and one for IR, for camera, and one for touch sensing. Assign to Member B.
 
