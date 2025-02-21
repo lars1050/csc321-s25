@@ -102,11 +102,11 @@ The other person can now clone the repo.
 
 On gitlab, prepare the issues. Please use the provided branch name for the issue name and include the description. On gitlab, assign each to Member A or Member B (you decide who is A and who is B). More details on the requirements for these issues is provided below.
 
-1. add-movement-strategy. Create the strategies for movement including the super class and one for wheeled movement and one for omni-directional movement. Assign to Member A.
+1. add-movement-strategy. Create the strategies for movement including the super class (actually, the interface) and one for wheeled movement and one for omni-directional movement. Assign to Member A.
 
 **REQUIREMENTS ADDITION**: A student alerted me to a critical piece that I left out in the Strategy Pattern. Because the move is taking place outside of the Robot class, you no longer have access to the location. For this reason, you should return the change in x and the change in y relative to the current position. You can accomplish this by returning a Point. The x-component is equal to `distance * Math.cos(radians)` and the y-component is equal to `distance * Math.sin(radians)`. On the Robot side, after calling this function, add the change in x and the change in y to the current location.
 
-2. add-sensing-strategy. Create the strategies for sensing including the super class and one for IR, for camera, and one for touch sensing. Assign to Member B.
+2. add-sensing-strategy. Create the strategies for sensing including the super class (actually, an interface) and one for IR, for camera, and one for touch sensing. Assign to Member B.
 
 3. new-robot-class. Create a new Robot class that makes use of the movement and sensing strategies. The first 2 issues must be resolved before completing this. Assign to Member A.
 
@@ -128,9 +128,9 @@ _Please leave the provided code as is and create new classes. The one exception 
 
 For each of the issues below, develop the code in a branch with the specified title. When complete, merge with the main branch.
 
-1. (issue #1) Create the collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni.
+1. (issue #1) Create the interface and collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni.
 
-1. (issue #2) Create the collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch.
+1. (issue #2) Create the interface and collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch.
 
 1. (issue #3) Once you have completed both issue#1 and issue#2, create a new Robot class to make use of the strategies. 
 
