@@ -88,13 +88,17 @@ The person not typing is guiding the development.
 
 1. Familiarize yourself with the code, then make a new RobotBad subclass that is omni-directional and uses a touch sensor (`class OmniTouchBad`). Be sure to instantiate an OmniTouchBad robot and test it in Main to ensure it is working -- the code is in main, but it is commented out.
 
+To create a robot with different behavior, override the default behavior, as needed. The default RobotBad uses omni-directional movement and an IR sensor.
+
 > Note: You might notice yourself copying and pasting code to create this new subclass. Copying-and-pasting code should always be a red flag indicating you might need a redesign.
 
 2. Make a new RobotBad subclass that is wheeled and uses a camera (`class WheelCameraBad`). Test that it is working.
 
 There are 2 types of movement and 3 types of sensing. If you had to make a new class for every possible combination, you would be making 6 distinct classes. What's worse is that if you wanted one of the movements or the sensors to be implemented differently, you would have to modify that in each of the classes it is used. 
 
-#### Setting Up the Repo 
+The other person can now clone the repo.
+
+#### Setting Up the Repo with Issues
 
 On gitlab, prepare the issues. Please use the provided branch name for the issue name and include the description. On gitlab, assign each to Member A or Member B (you decide who is A and who is B). More details on the requirements for these issues is provided below.
 

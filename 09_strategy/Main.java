@@ -9,7 +9,7 @@ public class Main {
 
     // OmniTouchBad roomba = new OmniTouchBad("Hoover");
 
-    // WheelCameraBad walle  = new OmniIRBad("Wall-E");
+    // WheelCameraBad walle  = new WheelCameraBad("Wall-E");
 
     RobotBad[] robots = {rosie, eva /*, roomba, walle*/};
     for (RobotBad robot : robots) {
