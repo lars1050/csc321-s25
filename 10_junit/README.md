@@ -243,8 +243,6 @@ When you have a chance, each of you document your test plan in TESTS.md. Place t
 
 #### Requirements
 
-Use `assertAll` for your tests.
-
 In your tests, use:
 - `assertAll` at some point
 - `@DisplayName` for all tests
