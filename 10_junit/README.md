@@ -25,21 +25,21 @@ The JUnit tests have been started for you. To run what is there, enter these com
 MAC
 
 ```
-javac -cp .:./junit-platform-console-standalone-1.9.2.jar *.java
+javac -cp .:./junit-platform-console-standalone-1.12.0.jar *.java
 
-java -jar ./junit-platform-console-standalone-1.9.2.jar execute -cp . --scan-classpath .
+java -jar ./junit-platform-console-standalone-1.12.0.jar execute -cp . --scan-classpath .
 
-java -jar ./junit-platform-console-standalone-1.9.2.jar execute -cp . --select-class CircleTest
+java -jar ./junit-platform-console-standalone-1.12.0.jar execute -cp . --select-class CircleTest
 ```
 
 WINDOWS 
 
 ```
-javac -cp ".;./junit-platform-console-standalone-1.9.2.jar" *.java
+javac -cp ".;./junit-platform-console-standalone-1.12.0.jar" *.java
 
-java -jar ./junit-platform-console-standalone-1.9.2.jar -cp "." --scan-classpath "."
+java -jar ./junit-platform-console-standalone-1.12.0.jar -cp "." --scan-classpath "."
 
-java -jar ./junit-platform-console-standalone-1.9.2.jar -cp "." --select-class CircleTest
+java -jar ./junit-platform-console-standalone-1.12.0.jar -cp "." --select-class CircleTest
 ```
 
 The first line compiles the classes. The second and third line run the tests. The flag --scan-classpath looks for all possible tests, whereas --select-class will only run those in the provided file.
