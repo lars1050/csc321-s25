@@ -183,7 +183,7 @@ public class Mallard extends Duck {
 
 9. (issue #7) Reconfigure the robot you just made by setting the movement to omni and the sensing to touch (i.e. use the setters). Test that it works.
 
-10. (issue #8) Often industrial robots are fixed and cannot move (except for their arms). Make a new MoveStrategy called `MoveFixed`. In the move function, print something like "Fixed. No change in position." Make another reconfigurable robot that uses a camera and is fixed.
+10. (issue #8) Often industrial robots are fixed and cannot move (except for their arms). Make a new MoveStrategy called `MoveFixed`. In the move function, print something like "Fixed. No change in position." It still returns a Point, which should be (0,0). Make another Reconfigurable robot (i.e. instantiate Reconfigurable) that uses a camera and is fixed.
 
 I think you get the point now!
 
