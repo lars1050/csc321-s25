@@ -128,11 +128,11 @@ _Please leave the provided code as is and create new classes. The one exception 
 
 For each of the issues below, develop the code in a branch with the specified title. When complete, merge with the main branch.
 
-1. (issue #1) Create the interface and collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni.
+1. (issue #1) Create the interface and collection of classes to implement the movement strategy. This should include a wheel and omni-directional. Use the names MoveBehavior, MoveWheeled, MoveOmni. The classes MoveWheeled and MoveOmni should have a method `public Point move(int heading, int distance)`. In that method, you are calculating the change in the x-direction and the change in the y-direction, then passing that back to the robot so that it can adjust its location according to the move.
 
-1. (issue #2) Create the interface and collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch.
+1. (issue #2) Create the interface and collection of classes to implement the sensing strategy. This should include an IR, camera, and touch strategy. Use the names SenseBehavior, SenseIR, SenseCamera, and SenseTouch. These classes SenseIr, SenseCamera, and SenseTouch should have a method `public void sense()` that contains the code for that mechanism for sensing (i.e. the code provided at the top of this readme). 
 
-1. (issue #3) Once you have completed both issue#1 and issue#2, create a new Robot class to make use of the strategies. 
+1. (issue #3) Once you have completed both issue#1 and issue#2, create a new Robot class to make use of the strategies. The abstract Robot class should be modeled after the Duck in the UML. It should have an instance variable for the moving and sensing behavior. It should have a method `public void move(int heading, int distance)` that calls the moving behavior method and then adjusts its location using that information. The Robot class should also have the method `public void sense()` that calls the sensing behavior method. Use the code example below as a guide. 
 
 Here is some code from _Head First Design Patterns_ that implements the Duck example. Your robot classes will be essentially the same in structure.
 
@@ -171,11 +171,11 @@ public class Mallard extends Duck {
 }
 ```
 
-1. (issue #4 and issue #5) Again create subclasses with the same functionality as before, except use the Strategy Pattern. Call them OmniTouch and WheelCamera. The constructor should have a String parameter fot the name of the robot. As before, in main(), create robots of these types and test that they are working.
+1. (issue #4 and issue #5) Again create subclasses with the same functionality as before, except use the Strategy Pattern. Call them OmniTouch and WheelCamera. The constructor should have a String parameter for the name of the robot. As before, in main(), create robots of these types and test that they are working. You are still hard coding the movement and sensing strategies.
 
-1. (issue #6) Create the Robot subclass Wheeled and initialize with the wheeled strategy for movement. Additionally, create a constructor with the sensing strategy as a parameter (i.e. `public Wheeled(String name, SenseBehavior strategy)`). In main, test that it is working.
+1. (issue #6) Create the Robot subclass Wheeled and initialize with the wheeled strategy for movement. Additionally, create a constructor with the sensing strategy as a parameter (i.e. `public Wheeled(String name, SenseBehavior strategy)`). Now you are hard coding the movement but allowing for different sensing strategies. In main, test that it is working.
 
-1. (issue #7) Finally, create a `class Reconfigurable` and initialize with both a MoveBehavior and a SenseBehavior (i.e. `public Reconfigurable(String name, SenseBehaivor sensing, MoveBehavior moving)`);
+1. (issue #7) Finally, create a `class Reconfigurable` and initialize with both a MoveBehavior and a SenseBehavior (i.e. `public Reconfigurable(String name, SenseBehaivor sensing, MoveBehavior moving)`). Behaviors are no longer being hard coded. These can be set (and modified) at any point in the code.
 
 1. (issue #7) Add setters for the sensing and moving strategies using the signature `setMoveBehavior(MoveBehavior moving)` and `setSenseBehavior(SenseBehavior sensing)`.
 
