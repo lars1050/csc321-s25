@@ -14,7 +14,20 @@ Issue #1 and #2 can be developed on the branch **feature-share-stats**.
 
 
 
-2. Population.java: Add a method Population.statusChanged(Status remove, Status add). Decrement the corresponding remove status (e.g. statusCount.put(remove) ...) and increment the corresponding add status. At the end of Population.update(), call shareStats.
+2. Population.java: Add a method Population.statusChanged(Status remove, Status add). Decrement the corresponding remove status (e.g. statusCount.put(remove) ...) and increment the corresponding add status. <del>At the end of Population.update(), call shareStats</del>. This function is used in the Population.checkForEncounters() method. Withing the if-statement `if (distance < Person.SIZE())`, you need to do the following:
+
+```
+// save the pre-exposure status of "other"
+--> CODE HERE
+
+// "other" is being exposed to "person" who is currently sick
+person.expose(other)
+
+// check if "other" has changed status (meaning went from healthy to sick)
+--> CODE HERE
+//   if status has changed, call statusChanged(pre-exposure status, post-exposure status)
+-----> CODE HERE
+```
 
 Issue #3 can be developed (after 1 and 2 are resolved) on **feature-random-infection**.
 
