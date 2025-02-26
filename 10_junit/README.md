@@ -1,5 +1,7 @@
 ## JUnit Testing: An Introduction
 
+Due: Sunday, March 2 end-of-day with 24 hour grace period
+
 junit: https://junit.org/junit5/
 
 As a programmer, it is essential that you test your code. It is your responsibility as a team member to make sure that what you contribute to a project is correct. For production quality code, it is insufficient for you to "try" a couple of values, print the results to the screen, and check that they are right. You have to be just as thoughtful about how you test your code as you do about writing your code. Luckily, there are tools that help you formalize this process.
