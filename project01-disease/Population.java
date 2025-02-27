@@ -98,7 +98,7 @@ public class Population {
 				double distance = Math.pow((deltaX*deltaX + deltaY*deltaY),0.5);
 				if (distance < Person.SIZE()) {
 					// they are overlapping, thus other is exposed to person
-					person.exposed(other);
+					other.exposed(person);
 				}
 			}
 		}
