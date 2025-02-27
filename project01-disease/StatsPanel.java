@@ -9,6 +9,8 @@ public class StatsPanel extends JPanel {
 	JLabel heading;
 
 	public StatsPanel() {
+
+		setLayout(null);
 			
 		setBounds( //0,50,100,100);
 			Layout.STATS_PANEL_X, Layout.STATS_PANEL_Y,
@@ -18,7 +20,7 @@ public class StatsPanel extends JPanel {
 		
 		heading = new JLabel("Heading");
 		heading.setText("Health Statistics of Population");
-		heading.setBounds(Layout.STATS_PANEL_X/2-100,15,300,50);
+		heading.setBounds(Layout.STATS_PANEL_W/2-100,15,300,50);
 		add(heading);
 		
 		setVisible(true);
