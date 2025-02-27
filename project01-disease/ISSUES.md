@@ -61,7 +61,7 @@ Issue #9 can be developed on branch **feature-slider-transmission**.
 
 Issue #10 can be developed on branch **feature-person-transmission**.
 
-10. Person.java: Create a static variable transmissionProbability in Person. Initialize it to 10. Create a setter for this value. In the exposed() method in Person, use the transmissionProbability to determine if the person would get infected from the encounter. If the _other_ person is contagious (ASYMPTOMATIC or SYMPTOMATIC), and _this_ person is HEALTHY (VACCINATED or NOT), then they have some probability of getting infected. Use randInt(100) < transmissionProbability to determine whether or not they would be infected. If infected, change the status to SYMPTOMATIC and call population.changeStatus (assuming the issue to create changeStatus has been resolved).
+10. Person.java: Create a static variable transmissionProbability in Person. Initialize it to 10. Create a setter for this value. In the exposed() method in Person, use the transmissionProbability to determine if the person would get infected from the encounter. If the _other_ person is contagious (ASYMPTOMATIC or SYMPTOMATIC), and _this_ person is HEALTHY (VACCINATED or NOT), then they have some probability of getting infected. Use randInt(100) < transmissionProbability to determine whether or not they would be infected. If infected, change the status to SYMPTOMATIC and call population.statusChanged (assuming the issue to create statusChanged has been resolved).
 
 Issue #11 (after 10 is resolved) can be be developed on branch **feature-transmission-update**
 
