@@ -39,7 +39,7 @@ public class MessageBoard {
 				paused = (Boolean) value;
 				break;
 			case DAYS:
-				days = (Integer) days;
+				days = (Integer) value;
 				break;
 			case STATS:
 				@SuppressWarnings("unchecked")
