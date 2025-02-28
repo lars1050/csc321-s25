@@ -162,5 +162,12 @@ Issue #28  can be developed on branch **fix-ignore-status-notalive**
 
 28. In Population.checkForEncounters(), check for status NOT_ALIVE and ignore any NOT_ALIVE as either the "person" or the "other".
 
+### Control Panel Play / Pause
+
+Issue #29 can be developed on branch **feature-play-button**
+
+29. Create a Play/Pause button in the control panel. The action listener communicates the status of the play button.
+
+
 
 
