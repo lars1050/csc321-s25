@@ -59,7 +59,7 @@ public class MessageBoard {
 				preventionLevel = (Integer) value;
 				break;
 			case MOVEMENT:
-				movement = (Integer) movement;
+				movement = (Integer) value;
 				break;
 			case MORBIDITY:
 				morbidityRate = (Integer) value;
