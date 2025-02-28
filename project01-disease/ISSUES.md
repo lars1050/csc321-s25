@@ -2,6 +2,8 @@ For any code that you add to the application, please comment it and add the appr
 
 <mark>If you are making a slider, feel free to change the access modifiers to `protected` for the member variables of the SliderPanel. Once you call the super constructor, the slider will be added to the panel. To modify the slider, refer to the methods for JSlider in the Java Oracle documentation. It may be that you want to create a new JSlider, in which case you will to `remove(slider)`, set slider = new JSlider, then `add(slider)` in the subclass you are creating.</mark>
 
+<mark>FIX CODE ERROR in MessageBoard. Change `(Integer) days` to `(Integer) value` in switch statement.
+
 ### Tracking Status
 
 The StatsPanel will report a variety of statistics about the population as the simulation advances. Information is shared between components through the MessageBoard. These issues are related to keeping the MessageBoard up-to-date.
