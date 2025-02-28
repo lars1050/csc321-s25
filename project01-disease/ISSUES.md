@@ -158,7 +158,9 @@ Issue #27 can be developed on branch **feature-morbidity-status**
 
 27. In Person, create a static variable morbidityRate and initialize to 0. In Population.update(), call the setter with the current value from the MessageBoard. In Person.move(), if a person is infected and has reached the end of their illness, change their status to  NOT\_ALIVE with the morbidityRate probability. If someone is not alive, they cannot move, so change deltaX and deltaY to 0. And if not NOT\_ALIVE, then status should be changed to HEALTHY\_RECOVERED. Call population.statusChanged to report the change.
 
-Issue #28 In Population.checkForEncounters(), check for status NOT_ALIVE and ignore any NOT_ALIVE as either the "person" or the "other".
+Issue #28  can be developed on branch **fix-ignore-status-notalive**
+
+28. In Population.checkForEncounters(), check for status NOT_ALIVE and ignore any NOT_ALIVE as either the "person" or the "other".
 
 
 
