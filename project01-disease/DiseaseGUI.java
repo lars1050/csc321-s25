@@ -28,6 +28,9 @@ public class DiseaseGUI extends JFrame {
 	
 	/** Number of "days" since the simulation started */
 	private Integer days = 0;
+	
+	/** Flag to indicate if the start button has been clicked */
+	volatile private boolean fPause = true;
 
 	/** Constructor to create all aspects of the simulation */
     private DiseaseGUI() {
@@ -41,15 +44,20 @@ public class DiseaseGUI extends JFrame {
         // You control the layout
         this.getContentPane().setLayout(null);
         
-		populationPanel = new PopulationPanel();
-        getContentPane().add(populationPanel);
-
 		controlPanel = new ControlPanel();
         getContentPane().add(controlPanel);
         
 		statsPanel = new StatsPanel();
         getContentPane().add(statsPanel);
     
+        setVisible(true);
+        
+        while (fPause) {
+        	fPause = MessageBoard.paused();
+        }
+
+		populationPanel = new PopulationPanel();
+        getContentPane().add(populationPanel);
         setVisible(true);
         
         // controls the timing of the movement
