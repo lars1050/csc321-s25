@@ -2,7 +2,9 @@ For any code that you add to the application, please comment it and add the appr
 
 <mark>If you are making a slider, feel free to change the access modifiers to `protected` for the member variables of the SliderPanel. Once you call the super constructor, the slider will be added to the panel. To modify the slider, refer to the methods for JSlider in the Java Oracle documentation. It may be that you want to create a new JSlider, in which case you will to `remove(slider)`, set slider = new JSlider, then `add(slider)` in the subclass you are creating.</mark>
 
-<mark>FIX CODE ERROR in MessageBoard. Change `(Integer) days` to `(Integer) value` in switch statement.
+<mark>FIX CODE ERROR in MessageBoard. Change `(Integer) days` to `(Integer) value` and change `(Integer) movement` to `(Integer) value` in switch statement.</mark>
+
+<mark>It was brought to my attention that the population is not impacted by the slider values because the population is created before the sliders can be changed. I have modified DiseaseGUI.java to fix this. The new version can be seen on github. Details of the changes are in the Moodle announcement.</mark>
 
 ### Tracking Status
 
