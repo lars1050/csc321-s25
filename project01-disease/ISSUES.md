@@ -124,7 +124,7 @@ Issue #20 can be developed on branch **feature-prevention-vaccinated**
 
 Issue #21 can be developed on branch **feature-prevention-update**
 
-21. Person.java and Population.java: Create a static variable preventionLevel in Person and its getter. Initialize to 0. In Population.update(), call the setter for preventionLevel and pass the value from the messageBoard. 
+21. Person.java and Population.java: Create a static variable preventionLevel in Person and its setter. Initialize to 0. In Population.update(), call the setter for preventionLevel and pass the value from the messageBoard. 
 
 Issue #22 can be developed on branch **feature-prevention-status**
 
