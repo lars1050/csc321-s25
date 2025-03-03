@@ -53,7 +53,7 @@ Keep in mind that your branch is YOUR branch. If you mess it up, you can start o
 
 As part of the project, each student will write their own report about their contributions to the project. They will also complete a google form to reflect on the contributions of their teammates.
 
-In this report, you will provide:
+In this report, you will provide answers to the following. Use complete sentences and make it clear which question you are answering.
 
 - The role that you chose and some examples of what you did in that role.
 
@@ -72,7 +72,7 @@ You will be assessed on both your technical and teamwork accomplishments. In gen
 
 - 4 pts: Being a good team player (as evidenced by your self-reporting and the reporting by your team mates).
 
-- 3 pts: Completing the report at the end of the project.
+- 3 pts: Completing the report at the end of the project. Please submit via MOODLE (link in week of Mar 03)
 
 - 2 pts: Consistent contribution to the project. This means that I can see regular commits to the project.
 
