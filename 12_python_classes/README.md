@@ -36,7 +36,7 @@ Work with a partner to complete the assignment. You and your partner decide how 
 
 There is a subgroup assignment12 in which to place your work.
 
-Please make sure your collaborators.py file is correct.
+Please make sure your collaborators.txt file is correct.
 
 Here are some resources to look at about Python classes.
 
