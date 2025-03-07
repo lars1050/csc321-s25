@@ -16,7 +16,7 @@ The following files contain Python classes for the simulation.
 
 First, take some time to look through the code to understand what each class does and how the simulation works. Again, this is very similar to the disease model that you just completed.
 
-A few slides to get you thinking about how OOP concepts are implemented in Python: 
+A few slides to get you thinking about how OOP concepts are implemented in Python: https://docs.google.com/presentation/d/1IcBf6moqZYX3-BMle1HtYt_OLK-K6Os3zlLpm7Mokrs/edit?usp=sharing
 
 Create a collaborators.txt file. All code should be placed in the folder 12\_python\_classes. The repo should be named username-repo-12.
 
