@@ -1,4 +1,4 @@
-### 15 Strategy Pattern
+### 15 Strategy Pattern with Functions
 
 This is an in-class exercise. If you miss class and you want to earn credit, complete this assignment on your own. Push your work to gitlab and complete a (re)grade request form. Be sure to give me access to the repo and provide the exact address where I can look at the work.
 
