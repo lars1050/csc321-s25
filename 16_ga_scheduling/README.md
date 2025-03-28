@@ -2,7 +2,7 @@
 
 Worksheet is Due at the end of class on Friday, March 27
 
-Team coding is due Tuesday, April 1 end-of-day with 24 hour grace period
+Team coding is due Wednesday, April 2 end-of-day with 24 hour grace period
 
 A Genetic Algorithm is a search technique for solving a problem.
 It explores a solution space by creating a population of individuals,
@@ -65,9 +65,9 @@ You know what to do ... repo and collaborators.txt file.
 As always, use issues and branches.
 ```
 
-- Issue #1: refactor-fitness-function: Modify the ga code to include a fitness function variable. In the solve() function, instead of embedding the fitness calculation in the function, call this function variable. The fitness function will have 3 parameters (in this order): population, students, and courses. It returns the population fitness. Add this function to the solve() parameter list.
+- Issue #1: refactor-fitness-function: Modify the ga code to include a fitness function variable. In the solve() function, instead of embedding the fitness calculation in the function, call this function variable. The fitness function will have 3 parameters, in this order: population, students, and courses. It returns the population fitness. Add this function to the solve() parameter list.
 
-- Issue #2: feature-create-fitness-function: In a separate file, create a fitness function that can be called in the ga.solve() function. This function has 3 parameters (in this order): population, students, and courses. It returns the population fitness. Coordinate with issue #1 author to put these pieces together.
+- Issue #2: feature-create-fitness-function: In a separate file, create a fitness function that can be called in the ga.solve() function. This function has 3 parameters, in this order: population, students, and courses. It returns the population fitness. Coordinate with issue #1 author to put these pieces together.
 
 - Issue #3: refactor-generation-function: Modify the ga code to include a next generation function variable. In the solve() function, instead of hard-coding the call to next\_generation(), call this variable. 
 
