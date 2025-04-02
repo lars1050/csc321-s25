@@ -1,5 +1,8 @@
 import math
 
+# Thank you claude.ai for you guidance and code
+# And thanks Dr. Dasgupta in physics
+
 # rotation around y and z at the first pair of angles
 angleY1 = 0
 angleZ1 = -90
