@@ -10,7 +10,7 @@ In more relatable terms, stiffen your elbow, stretch your arm out to the side (p
 
 If you list a series of pairs of angles that the arms move through, this creates a series of positions of the end-effector (i.e. your finger) corresponding to those angles. Any change in the y-position can be interpreted as forward motion of the creature. And the faster the motion, the more forward progress it can make. Think of an oar pushing through the water to make the boat go forward. This is the power stroke. But now you have to get the arm back in position, which means you might cause some backward motion. This is the recovery stroke.
 
-You are going to use a genetic algorithm to evolve the movement of the arm to hopefully create a power and recovery stroke to maximize forward motion. An individual starts as a series of 16 random angles (8 pairs) in the range -90 to +90. The first 2 angles correspond to the y-axis and z-axis rotation at the start. At the next time unit, the arms are rotated to get to the next 2 angles. And so on. At each transition, the change in y and the velocity of that motion is calculated to estimate forward motion. The fitness of the creature scales with its forward motion (i.e. the more it moves forward during its full stroke, the higher its fitness). Code has been provided that calculates forward motion given 2 pairs of angles.
+You are going to use a genetic algorithm to evolve the movement of the arm to hopefully create a power and recovery stroke to maximize forward motion. An individual starts as a series of 16 random angles (8 pairs) in the range -90 to +90. The first 2 angles correspond to the y-axis and z-axis rotation at the start. At the next time unit, the arms are rotated to get to the next 2 angles. And so on. At each transition from angles to angles, the change in y and the velocity of that motion is calculated to estimate forward motion. The fitness of the creature scales with its total forward motion across the entire stroke (i.e. the more it moves forward during its full stroke, the higher its fitness). Code has been provided that calculates forward motion given 2 pairs of angles.
 
 A genetic algorithm can be applied to different problems. The algorithm does not change, only the problem (i.e. how an individual is defined and its fitness calculated). One of the key aspects of this assignment is to create a generic framework for GAs that can work on any type of problem. The simulated annealing assignment was set up in this way. This framework will be so generic, that you could solve the scheduling problem, swimming creature, and gold-seeking robot using the same GA code without modification. 
 
@@ -20,7 +20,7 @@ A genetic algorithm can be applied to different problems. The algorithm does not
 
 All code will be written in Python. The 2 primary components are:
 
-1. A generalized framework for the genetic algorithm. Define a class called `GA` in the file `ga.py`. The constructor of the class has a parameter that is an instance of a problem to solve.
+1. A generalized framework for the genetic algorithm. Define a class called `GA` in the file `ga.py`. The constructor of the class has keyword arguments (kwargs) that set various aspects of the GA (e.g. rate of mutation).
 
 2. The swimming creature problem. Define a class `Problem` in the file `swimmer.py`. It should contain the following methods:
 
@@ -58,6 +58,10 @@ These functions should be defined in a separate file called selection\_fns.py. N
 
 As with the scheduling problem, **add plotting of the progress of learning**. Show how the average fitness and best fitness changed over time. 
 
+Experiment with the GA. Try different population sizes, mutation rates, generations, and selection functions. See which can get the ga to converge on the highest fitness in the least amount of time.
+
+An animation wil be provided. This will allow you to see the motion of the best individual.
+
 <hr>
 
 ## Documentation
@@ -69,6 +73,8 @@ Create a README.md for this project. In the readme,
 - Specify how you communicated with each other and generally how often. 
 - Describe your process for testing the code before its final submission.
 - Add links to the tags that you made. Periodically, I will ask you to "tag" your repo, which means take a snapshot. This allows me to see how you progressed over time. The expectation is that you regularly work on the assignment. Do not wait until the last minute.
+
+- Importantly, **write a paragraph about your experiments**. State what worked the best to solve this problem, and how did you determine that.
 
 <hr>
 
@@ -84,6 +90,10 @@ Each team member will submit a report to Moodle - due Wednesday, end-of-day. In 
 ### Issues
 
 It is the responsibility of the team to create the issues. Issues should be relatively small. Try to create issues that can be tested when complete. Once you have determined the issues, add them all to gitlab. Each issue should have a descriptive name and a sentence or two that describes what will be implemented. Identify the issues by end-of-class Friday. They will be reviewed to ensure they make sense for this project.
+
+> You can assign issues as they are addressed.
+
+> If you are a procrastinator, pay attention to the deadlines and limit your procrastination. It is not fair to your teammates to wait until the last minute. And you will be docked points for this behavior. For those of you who are non-procrastinators, please do not turn this into an individual project. Be responsbile. Communicate. 
 
 Create a branch for each issue and merge to main when complete. Please do not delete branches. As issues are completed, mark them as closed. 
 
