@@ -101,7 +101,7 @@ Create a branch for each issue and merge to main when complete. Please do not de
 
 Please use the gitlab "merge request" for merging branches with main. It is so much easier. And please be careful and thoughtful when merging. **So, don't rush when merging. Look at all the information on the screen and make sure it makes sense. If you are not sure, just ask a team member or Dr. Larson to watch as you complete it.** Most things are recoverable, but it is better to not have to do that. 
 
-Keep in mind that your branch is YOUR branch. If you mess it up, you can start over. It only impacts others when it is merged with main. Many of the issues are quite small in nature. If you take on a more challenging issue, push often in case you have to revert back to a previous version.
+Keep in mind that your branch is YOUR branch. If you mess it up, you can start over. It only impacts others when it is merged with main. This is made easier if you make the issues relatively small. If you take on a more challenging issue, push often in case you have to revert back to a previous version.
 
 
 ### Roles 
