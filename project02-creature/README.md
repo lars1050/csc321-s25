@@ -74,7 +74,7 @@ Create a README.md for this project. In the readme,
 - Describe your process for testing the code before its final submission.
 - Add links to the tags that you made. Periodically, I will ask you to "tag" your repo, which means take a snapshot. This allows me to see how you progressed over time. The expectation is that you regularly work on the assignment. Do not wait until the last minute.
 
-- Importantly, **write a paragraph about your experiments**. State what worked the best to solve this problem, and how did you determine that.
+- Importantly, **write a paragraph about your experiments**. State what worked the best to solve this problem, and how you determined that.
 
 <hr>
 
@@ -93,7 +93,7 @@ It is the responsibility of the team to create the issues. Issues should be rela
 
 > You can assign issues as they are addressed.
 
-> If you are a procrastinator, pay attention to the deadlines and limit your procrastination. It is not fair to your teammates to wait until the last minute. And you will be docked points for this behavior. For those of you who are non-procrastinators, please do not turn this into an individual project. Be responsbile. Communicate. 
+> Be responsbile. Communicate. If you are a procrastinator, pay attention to the deadlines and limit your procrastination. It is not fair to your teammates to wait until the last minute. And you will be docked points for this behavior. For those of you who are non-procrastinators, please do not turn this into an individual project. 
 
 Create a branch for each issue and merge to main when complete. Please do not delete branches. As issues are completed, mark them as closed. 
 
@@ -109,7 +109,7 @@ Keep in mind that your branch is YOUR branch. If you mess it up, you can start o
 Each of you should take on one of the following roles. I suggest that you choose one that matches your strengths.
 
 
-- **Git Manager**. This person establishes the repo with the starter code. They make sure the .gitignore and collaborators.txt is correct. As well as ensure that no class files or docs are being pushed to the repo. They keep an eye on the branches, and try to help others with git and with merging. They manage issues on gitlab. And they tag the repo.
+- **Git Manager**. This person establishes the repo with the starter code. They make sure the .gitignore and collaborators.txt is correct. They keep an eye on the branches, and try to help others with git and with merging. They manage issues on gitlab. And they tag the repo.
 
 - **Team Coordinator**. This person helps each team member pick their next issue(s) to tackle. This person knows generally what everyone is working on to try to avoid merge conflicts. They check in regularly to see where the problems are and to coordinate effort among team members to address problems. They are responsible for communicating to the team.
 
@@ -142,15 +142,15 @@ You will be assessed on both your technical and teamwork accomplishments. In gen
 
 - 4 pts: Being a good team player (as evidenced by your self-reporting and the reporting by your team mates).
 
-- 4 pts: Completing the report at the end of the project. Please submit via MOODLE (link in week of Mar 03)
+- 3 pts: Completing the report at the end of the project. Please submit via MOODLE (link in week of Mar 03)
 
 - 3 pts: Consistent contribution to the project. This means that I can see regular commits to the project.
 
 - 2 pts: Good git management. This means that you were consistent in using branches and naming them correctly. You were careful and thoughtful when performing merges into main. If you are feeling shaky about merging with main, put in the merge request and ask if someone on your team can help you complete it.
 
-- 10 pts: The code that you implemented. It should be tested.
+- 10 pts: The code that you implemented. Please test your code.
 
-- 3 pts: The overall quality of the project that depends on how well the team worked together. 
+- 4 pts: The overall quality of the project, which depends on how well the team worked together. This includes the functionality of the code, meeting all the implementation requirements, and completing the documentation.
 
 Total of 30 points (weighted as 10% of your grade).
 
