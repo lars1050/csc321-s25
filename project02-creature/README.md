@@ -62,6 +62,19 @@ Experiment with the GA. Try different population sizes, mutation rates, generati
 
 An animation wil be provided. This will allow you to see the motion of the best individual.
 
+**(April 8) New Requirement:** Use command line arguments when executing the program. Accept the following flags:
+
+- `-p <#>`: set the population size
+- `-g <#>`: set the number of generations to evolve
+- `-s <#>`: set the selection strategy (1) Monte Carlo from entire population, (2) exclusing bottom 10%, and (3) general population + exclusively the top 10%.
+
+Any or all of these can appear in any order. Some examples include:
+ - `python3 solver -s 1`: Use stategy (1) and the default values for population size and generations.
+ - `python3 solver -g 100 -p 50`: Set generations to 100 and the population size to 50. Use the "default" strategy pattern -- use strategy (1).
+ - `python3 solver -s 3 -p 500 -g 1000`: Use strategy (3). Set population size to 500 and evolve for 1000 generations.
+
+Do some web searching to learn about command line arguments. Also, once you run Python from the command line, the graphics window will not stay open. Do some web searching to learn how to keep the graphics window open.
+
 <hr>
 
 ## Documentation
