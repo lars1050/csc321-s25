@@ -73,7 +73,7 @@ Any or all of these can appear in any order. Some examples include:
  - `python3 solver -g 100 -p 50`: Set generations to 100 and the population size to 50. Use the "default" strategy pattern -- use strategy (1).
  - `python3 solver -s 3 -p 500 -g 1000`: Use strategy (3). Set population size to 500 and evolve for 1000 generations.
 
-Do some web searching to learn about command line arguments. Also, once you run Python from the command line, the graphics window will not stay open. Do some web searching to learn how to keep the graphics window open.
+Do some web searching to learn about command line arguments. 
 
 <hr>
 
