@@ -148,7 +148,7 @@ Code Manager: Think about how the team will conduct merges with the main branch.
 
 A tag is a named commit that makes it easier to find. They are often used when code is ready for a release or to mark a milestone. For more information, see <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Pro Git</a>. Tags are searchable on gitlab from the pulldown branch/tag menu. You can move in and out of a tag just as you do with a branch. The primary difference is that you cannot change a tag.
 
-On April 11 during class, your team needs to tag each branch of the repository. You can do this by using the pulldown menu next to the branches. Please use the following naming convention:
+On April 11 during class, your team needs to tag each branch of the repository that is in development. You do not need to tag any branch that has been merged into main. You can do this by using the pulldown menu next to the branches. Please use the following naming convention:
 
 ```
 tag-04-11-<branch name>
