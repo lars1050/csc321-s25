@@ -144,6 +144,19 @@ Git Issues Manager: decide how the team should manage the issues. Are you going 
 
 Code Manager: Think about how the team will conduct merges with the main branch. Discuss the process. Probably document that process.
 
+### Tagging
+
+A tag is a named commit that makes it easier to find. They are often used when code is ready for a release or to mark a milestone. For more information, see <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Pro Git</a>. Tags are searchable on gitlab from the pulldown branch/tag menu. You can move in and out of a tag just as you do with a branch. The primary difference is that you cannot change a tag.
+
+On April 11 during class, your team needs to tag each branch of the repository. You can do this by using the pulldown menu next to the branches. Please use the following naming convention:
+
+```
+tag-04-11-<branch name>
+```
+
+For example, the main branch tag would be `tag-04-11-main`. And if you have a branch feature-strategy1, the tag would be `tag-04-11-feature-strategy1`. Once you have created the tags, if you want to see them locally, first fetch them: `git fetch`, then view with `git tag`. You can also checkout a tag with `git checkout <tagname>`. And if you want to return the state of the repo at the time of the tag and then make changes, you can checkout the tag and make it into a new branch. 
+
+A note about names: I have noticed a lot of branches calles "issue-1". This is not informative. Your branch names should give some clue as to the work that is being done on the branch. Similarly, your issues should have titles that are informative. Similarly, your commit messages should be informative -- not "finished issue 1" but "completed strategy 1 for parent selection".
 
 <hr>
 
