@@ -168,7 +168,7 @@ You will be assessed on both your technical and teamwork accomplishments. In gen
 
 - 4 pts: Being a good team player (as evidenced by your self-reporting and the reporting by your team mates).
 
-- 3 pts: Completing the report at the end of the project. Please submit via MOODLE (link in week of Mar 03)
+- 3 pts: Completing the report at the end of the project. Please submit via MOODLE.
 
 - 3 pts: Consistent contribution to the project. This means that I can see regular commits to the project.
 
@@ -179,25 +179,3 @@ You will be assessed on both your technical and teamwork accomplishments. In gen
 - 4 pts: The overall quality of the project, which depends on how well the team worked together. This includes the functionality of the code, meeting all the implementation requirements, and completing the documentation.
 
 Total of 30 points (weighted as 10% of your grade).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
