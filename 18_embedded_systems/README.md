@@ -210,6 +210,7 @@ DOWNLOAD the simulator when you are done. I think it all gets saved in your prof
 	- Choose Simulator in the upper right. 
 	- Choose Arduino. 
 	- Scroll to the bottom and select "Arduino Uno".
+	- Add the json (as provided above) in the diagram.json tab
 
 	Save it as **toggle**.
 
