@@ -214,7 +214,7 @@ DOWNLOAD the simulator when you are done. I think it all gets saved in your prof
 	Save it as **toggle**.
 
 	- pressing the button will transition from the led being off, to the led being on, to the led blinking at 1 Hz.
-	- connect the led to pin 13 and the led to pin 8.
+	- connect the led to pin 13 and the button to pin 8.
 	
 	- IMPORTANT: the button must be immediately responsive. For this reason, you cannot use a delay to control the blinking (when in a blinking state). 
 	
