@@ -75,6 +75,14 @@ Any or all of these can appear in any order. Some examples include:
 
 Do some web searching to learn about command line arguments. 
 
+**(April 15) New Requirements**
+
+- Use animation to visualize your resulting best swimming gait.
+- Create a `def mutate(individual)` function for problem.
+- Test your generalized ga framework on the scheduling problem (see solver_example.py).
+
+Note: if you are importing fitness.py, please make sure that it is not executing any code when you import. In other words, everything should either be a function or in an `if __name__ == __main__` block. You can also just take the needed functions and add to the swimmer.Problem class.
+
 <hr>
 
 ## Documentation
