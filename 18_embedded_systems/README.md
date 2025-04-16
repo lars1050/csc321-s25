@@ -210,10 +210,12 @@ DOWNLOAD the simulator when you are done. I think it all gets saved in your prof
 	- Choose Simulator in the upper right. 
 	- Choose Arduino. 
 	- Scroll to the bottom and select "Arduino Uno".
+	- Add the json (as provided above) in the diagram.json tab
 
 	Save it as **toggle**.
 
 	- pressing the button will transition from the led being off, to the led being on, to the led blinking at 1 Hz.
+	- connect the led to pin 13 and the button to pin 8.
 	
 	- IMPORTANT: the button must be immediately responsive. For this reason, you cannot use a delay to control the blinking (when in a blinking state). 
 	
@@ -224,8 +226,11 @@ DOWNLOAD the simulator when you are done. I think it all gets saved in your prof
 	- copy the functionality from _toggle_ above in which the red button controls the state of the red led. 
 	
 	- pressing the green button will decrease the frequency of the blinking of the green led (by increasing the time between toggling on and off). Start the green led blinking at a frequency of 10 Hz (i.e. 50ms on, 50ms off). Every time the green button is pressed, increase that my 50 (i.e. 100ms on, 100ms off).
+
+ 	- connect the red led to pin 13 and the red button to pin 8.
+	- connect the green led to pin 12 and the green button to pin 7.
 	
-	- IMPORTANT: the buttons must be immediately responsive. For this reason, you cannot use a delay to control the blinking (when in a blinking state).
+	- IMPORTANT: the buttons must be immediately responsive. For this reason, you cannot use a delay to control the blinking.
 
 
 What to submit:
