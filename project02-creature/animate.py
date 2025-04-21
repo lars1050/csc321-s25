@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from mpl_toolkits.mplot3d import Axes3D
 
+# You might need this ...
+#import matplotlib
+#matplotlib.pyplot.switch_backend("TkAgg")
+
 import random
 import math
 
