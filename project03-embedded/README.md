@@ -26,7 +26,7 @@ Embedded systems are often programmed using C or assembly because these language
 
 ### OVERVIEW 
 
-1. Add 2 external leds to the system on pin 12 (yellow led) and pin 8 (blue led). 
+1. Add 2 external leds to the system on pin 12 (yellow led) and <del>pin 8</del> pin 11 (blue led). 
 
 1. Create your own "library" for led operations and #include in main.
 
@@ -34,7 +34,7 @@ Embedded systems are often programmed using C or assembly because these language
 
 1. Set up a timer interrupt to control the flashing of the external yellow led on pin 12.
 
-1. Create a Pin Change Interrupt to introduce a peripheral device interrupt. Flash the external blue led (on pin 8) to visualize the delay. The delay in the interrupt is based on for loops, not the delay function.
+1. Create a Pin Change Interrupt to introduce a peripheral device interrupt. Flash the external blue led (on <del>pin 8</del>) to visualize the delay. The delay in the interrupt is based on for loops, not the delay function.
 
 _I have provided essentially all the code needed for this last requirement, but it is a lot to get it set up. If it is not working correctly, I suggest commenting out the other functionality while debuggging._
 
@@ -234,11 +234,11 @@ ISR(PCINT0_vect) {
   // number of flashes
   int j=0;
   for (j=0; j<4; j++) {
-    digitalWrite(8,HIGH);
+    digitalWrite(11,HIGH);
     for (i=0; i<500000; i++) {
       k++;	// filler to not have an empty for loop
    }
-    digitalWrite(8,LOW);
+    digitalWrite(11,LOW);
     for (i=0; i<500000; i++) {
       k--;
     }
